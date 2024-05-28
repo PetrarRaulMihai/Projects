@@ -1,0 +1,9 @@
+.bg-image-mobile{
+    background-image: url("../Images/mobileBG.png"); 
+    height:100%
+}
+
+.bg-image-desktop{
+    background-image: url("../Images/desktopBG.png");
+    height:100%
+}

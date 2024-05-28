@@ -1,0 +1,45 @@
+.mobile-size-background {
+  background-image: url("../assets/suggestions/mobile/background-header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tablet-size-background {
+  background-image: url("../assets/suggestions/tablet/background-header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.desktop-size-background {
+  background-image: url("../assets/suggestions/desktop/background-header.png");
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.animate-slide-in {
+  animation: slideIn 0.3s ease-out;
+}
+
+.animate-slide-out {
+  animation: slideOut 0.3s ease-out;
+}
