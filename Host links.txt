@@ -1,15 +1,19 @@
 Each one of these projects is hosted via vercel, if you want to run whitin the project folder, open it in terminal run 'npm install' then 'npm run dev' or 'npm start'
+
+
+!!! IMPORTANT !!!
+Because I used a light free version of DB like Supabase and they added in Mai of 2024 a new policy I lost access to all my project databases ( At least the ones which used a db ) so in login/resgister phase the project will stuck. As the new/existing useres will be/are added in db .
    
    
-Product-feedback-app
+Product-feedback-app ( DB BASED )
 https://product-feedback-app-dun.vercel.app/
 
 
-InvoiceApp
+InvoiceApp ( DB BASED )
 https://invoice-app-petrarraulmihai.vercel.app/
 
 
-FrontEnd-Quizz-App
+FrontEnd-Quizz-App ( DB BASED )
 https://frontend-quizz-app-mu.vercel.app/
 
 
